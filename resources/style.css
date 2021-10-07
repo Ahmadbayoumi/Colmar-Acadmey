@@ -100,9 +100,33 @@ nav ul li {
     border: none;
 }
     
+.banner {
+    display: flex;
+}
 
+
+.banner-1 {
+    border: 5px solid red;
+    display: flex;
+    flex-flow: column;
+    padding: 32px 24px;
+    flex-grow: 2;
+}
+
+.banner-1-image {
+    border: 5px solid blue;
+    display: flex;
+    width: 60%;
+}
+
+.banner-cloumn {
+    display: flex;
+    flex-flow: column;
+    border: 5px solid black;
+    flex-grow: 1;
+}
 
 
 .video {
-    max-width: 60%;
+    width: 200px;
 }

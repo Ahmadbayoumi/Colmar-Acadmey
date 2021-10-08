@@ -146,6 +146,7 @@ nav ul li {
     flex-flow: column;
     justify-content: center;
     width: 40%;   
+    margin-bottom: 100px;
 }
 
 .S2-right-1 {
@@ -217,17 +218,37 @@ nav ul li {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
 .courses {
     display: flex;
     flex-direction: column;
     width: 25%;
-    margin: 24px 32px;
     background-color: white;
-    
 }
+
+.courses-1 {
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+
+.courses-2 {
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+
+.courses-3 {
+    margin-bottom: 32px;
+}
+
+.courses-4 {
+    margin-right: 32px;
+}
+
+.courses-5 {
+    margin-right: 32px;
+}
+
 
 .courses-desc {
     padding-bottom: 24px;
@@ -247,12 +268,92 @@ nav ul li {
 
 
 
+/*Section4 */
+
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 24px;
+    
+}
+
+.S4-title {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.S4-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
-
-
-
+.S4-left {
+    padding-right: 24px;
+    width: 60%;
+}
 
 .video {
-    width: 200px;
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+.video-desc {
+    padding-bottom: 8px;
+}
+
+.S4-right {
+    display: flex;
+    margin-bottom: 170px;
+    flex-direction: column;
+    width: 40%;
+}
+
+.S4-right-up {
+    display: flex;
+    background-color: #E8E8E8;
+}
+
+.S4-right-down {
+    display: flex;
+
+}
+
+.S4-right-title {
+    padding-bottom: 8px;
+}
+
+.S4-right-content {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    justify-content: center;
+
+}
+
+.S4-image {
+    width: 35%;
+    height: auto;
+    padding: 16px ;
+}
+
+
+/*Footer*/
+
+footer {
+    margin-top: 16px;
+    height: 100px;
+    padding-top: 10px;
+    padding: 10px 24px;
+}
+
+.footer-right {
+    float: right;
+}
+
+.footer-right-1 {
+    padding-right: 20px;
 }

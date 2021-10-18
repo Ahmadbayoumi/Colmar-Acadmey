@@ -112,7 +112,7 @@ nav ul li {
     padding-bottom: 40px;
     text-align:left;
 }
-.section-1-title{
+.section-1-title {
     padding-bottom: 35px;
     width: 100%;
 }
@@ -129,6 +129,32 @@ nav ul li {
     align-items: center;
     font-size: 16px;
     border: none;
+}
+
+@media only screen and (max-width: 500px) {
+
+.section-1 {
+    flex-direction: column;
+}
+
+
+.section-1-image-cointainer {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.section-1-content-child {
+    padding: 32px 16px;
+}
+
+.section-1-button {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+
+
 }
 
 

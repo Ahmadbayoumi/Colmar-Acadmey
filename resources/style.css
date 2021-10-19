@@ -482,6 +482,22 @@ nav ul li {
     padding: 16px ;
 }
 
+@media only screen and (max-width: 500px) {
+
+    .S4-title {
+        padding: 0px;
+        margin-bottom: 16px;
+    }
+
+    .S4-left {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .video-title, .S4-right {
+        display: none;
+    }
+}
 
 /* Footer */
 
@@ -500,3 +516,8 @@ footer {
     padding-right: 20px;
 }
 
+@media only screen and (max-width: 500px) {
+    .footer-right {
+        display: none;
+    }
+}
